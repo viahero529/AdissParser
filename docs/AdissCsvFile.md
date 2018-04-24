@@ -32,11 +32,11 @@ The following items represent each field/column of the data starting from line 1
 5. Speed
     - A double value of speed in knots.
 6. Aft Draft
-    - A double value of aft draft in feet.
+    - A double value of aft draft in international feet.
 7. Fore Draft
-    - A double avlue of fore draft in feet.
+    - A double avlue of fore draft in international feet.
 8. Water Depth
-    - A nullable double value of water depth in feet.
+    - A nullable double value of water depth in international feet.
     - If `null`, printed as "N/A" without the quotes.
 9. [Placement Phase](PlacementPhase.md)
     - Upper case
