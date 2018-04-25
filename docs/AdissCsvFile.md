@@ -8,25 +8,29 @@ The following items represent each line at the start of the ADISS CSV file.
 3. Client Name
 4. Trip Number
 5. Vessel Name
+    - The scow vessel name.
 6. Material Source
 7. Transit Start
 8. Disposal Start
 9. Note
 10. Line Separation
-    - A single line populated by `,,,,,,,,,` to separate the [file header](#file-header) and [records](#records).
-11. Record Header
-    - A single line populated by the header of the [records](#records):
-    `Local Date/Time,Latitiude,Longitude,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),Water Depth (ft),Placement Phase,Hull Status`
+    - A single empty line to separate the [file header](#file-header) and [records](#records).
+11. Record Header part 1
+    - The first line populated by the header of the [records](#records):
+    `Local Date/Time,Easting,Northing,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),`
+12. Record Header part 2
+    - The second line populate by the header of the [records](#records):
+    `Water Depth (ft),Placement Phase,Hull Status`
 
 ## Records
-The following items represent each field/column of the data starting from line 12 of the ADISS CSV file.
+The following items represent each field/column of the data starting from line 13 of the ADISS CSV file.
 
 1. Local Date Time
-    - A date/time value in ""
-2. Latitude
-    - A double value of latitude in decimal degrees.
-3. Longitude
-    - A double value of longitude in decimal degrees.
+    - A date/time value.
+2. Easting
+    - A double value of easting in international feet.
+3. Northing
+    - A double value of northing in international feet.
 4. Heading
     - A double value of heading in decimal degrees.
 5. Speed
