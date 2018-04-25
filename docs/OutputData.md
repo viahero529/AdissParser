@@ -33,27 +33,39 @@
     - The date/time of the last record where `Placement Phase = RETURN` parsed from an [ADISS CSV file](AdissCsvFile.md).
 17. Total Transit Time
     - The difference of the date/time between the first and last records where `Placement Phase = TRANSIT` parsed from an [ADISS CSV file](AdissCsvFile.md). 
-18. Start Dump X/Y
-    - The x/y coordinate of the first record where `Placement Phase = DISPOSAL` parsed from an [ADISS CSV file](AdissCsvFile.md).
+18. Start Dump X
+    - The x coordinate of the first record where `Placement Phase = DISPOSAL` parsed from an [ADISS CSV file](AdissCsvFile.md).
     - TODO: [Implement other NAD83](https://github.com/gojanpaolo/AdissParser/issues/3)
-19. Start Dump Date/Time
+19. Start Dump Y
+    - The y coordinate of the first record where `Placement Phase = DISPOSAL` parsed from an [ADISS CSV file](AdissCsvFile.md).
+    - TODO: [Implement other NAD83](https://github.com/gojanpaolo/AdissParser/issues/3)
+20. Start Dump Date/Time
     -  The date/time of the first record where `Placement Phase = DISPOSAL` parsed from an [ADISS CSV file](AdissCsvFile.md).
-20. End Dump X/Y
-    - The x/y coordinate of the last record where `Placement Phase = DISPOSAL` parsed from an [ADISS CSV file](AdissCsvFile.md).
+21. End Dump X
+    - The x coordinate of the last record where `Placement Phase = DISPOSAL` parsed from an [ADISS CSV file](AdissCsvFile.md).
     - TODO: [Implement other NAD83](https://github.com/gojanpaolo/AdissParser/issues/3)
-21. End Dump Date/Time
+22. End Dump Y
+    - The y coordinate of the last record where `Placement Phase = DISPOSAL` parsed from an [ADISS CSV file](AdissCsvFile.md).
+    - TODO: [Implement other NAD83](https://github.com/gojanpaolo/AdissParser/issues/3)
+23. End Dump Date/Time
     - The date/time of the last record where `Placement Phase = DISPOSAL` parsed from an [ADISS CSV file](AdissCsvFile.md).
-22. Scow Open Date/Time
+24. Scow Open Date/Time
     - The date/time of the first record where `Hull Status = CLOSED` parsed from an [ADISS CSV file](AdissCsvFile.md).
-23. Estimated Load
+25. Estimated Load
     - A user input.
     - TODO: [Lookup from a ullage table](https://github.com/gojanpaolo/AdissParser/issues/2)
-24. Start `LOADING` Dredge Station X/Y
+26. Start `LOADING` Dredge Station X
     - A user input.
     - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
-25. Start `LOADING` Dredge Range X/Y
+27. Start `LOADING` Dredge Station Y
     - A user input.
     - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
-26. Start `LOADING` Dredge Cutter Depth
+28. Start `LOADING` Dredge Range X
+    - A user input.
+    - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
+29. Start `LOADING` Dredge Range Y
+    - A user input.
+    - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
+30. Start `LOADING` Dredge Cutter Depth
     - A user input.
     - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
