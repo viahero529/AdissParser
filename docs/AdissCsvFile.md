@@ -13,9 +13,9 @@ The following items represent each line at the start of the ADISS CSV file.
 8. Disposal Start
 9. Note
 10. Line Separation
-    - A single line populated by `,,,,,,,,,` to separate the header and records.
+    - A single line populated by `,,,,,,,,,` to separate the [file header](#file-header) and [records](#records).
 11. Record Header
-    - A single line populated by the header of the records:
+    - A single line populated by the header of the [records](#records):
     `Local Date/Time,Latitiude,Longitude,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),Water Depth (ft),Placement Phase,Hull Status`
 
 ## Records
