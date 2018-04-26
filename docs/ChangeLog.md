@@ -1,3 +1,8 @@
+# 0.1.3
+- Added Query CSD MDB File feature. See [#1](https://github.com/gojanpaolo/AdissParser/issues/1)
+- Updated Output Data CSV column order
+- Removed User Input related to Start Loading
+
 # 0.1.2
 - Updated accepted ADISS CSV file format. See [#14](https://github.com/gojanpaolo/AdissParser/issues/14)
 
