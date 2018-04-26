@@ -17,10 +17,12 @@
     - A nullable double value that represents the average of `Aft` and `Fore` `Draft` when the scow leaves the channel. The scow is considered to have left the channel at the instant it went outside the channel and never comes back in again while in `TRANSIT`.
     - `null` if all the x/y records `Placement Phase = TRANSIT` is outside the channel.
 9. Average Draft Entering ODMDS
-    - The average of `Aft` and `Fore` `Draft` of the first [record](AdissCsvFile.md#records) when the scow is within the ODMDS Boundary.
+    - A nullable double value that represents the average of `Aft` and `Fore` `Draft` of the first [record](AdissCsvFile.md#records) when the scow is within the ODMDS Boundary.
+    - `null` if no records were found where the scow is inside the ODMDS.
 10. Average Draft Loss during Transit to ODMDS
-    - The difference of the average of `Aft` and `Fore` `Draft` when it departs the spider barge to when it enters the ODMDS.
+    - A nullable double value that represents the difference of the average of `Aft` and `Fore` `Draft` when it departs the spider barge and when it enters the ODMDS.
     - The difference of the average of `Aft` and `Fore` `Draft` between the last [records](AdissCsvFile.md#records) where `Placement Phase = TRANSIT` and the first record where the scow is inside the ODMDS. 
+    - `null` if no records were found where the scow is inside the ODMDS.
 11. Maximum Speed during [`TRANSIT`](PlacementPhase.md)
     - The maximum speed from all the [records](AdissCsvFile.md#records) where `Placement Phase = TRANSIT`.
 12. Is Emergency Dump
