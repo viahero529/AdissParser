@@ -8,7 +8,7 @@
 - Implemented Lookup Estimated Load Size From Ullage Table. See [#2](https://github.com/gojanpaolo/AdissParser/issues/2)
 
 ### [ADISS CSV File](AddisCsvFile.md)
-- Change accepted format when parsing. See [#6](https://github.com/gojanpaolo/AdissParser/issues/6)
+- Changed accepted format when parsing. See [#6](https://github.com/gojanpaolo/AdissParser/issues/6)
 
 # 0.1.0
 Initial release.
