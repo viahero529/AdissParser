@@ -5,3 +5,6 @@
 - Added Is Mis-Dump
 - Added Average Draft Leaving The Channel
 - Corrected Average Draft Loss during Transit to ODMDS.
+
+# 0.1.0
+Initial release.
