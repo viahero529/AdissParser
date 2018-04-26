@@ -1,3 +1,6 @@
+# 0.1.2
+- Updated accepted ADISS CSV file format. See [#14](https://github.com/gojanpaolo/AdissParser/issues/14)
+
 # 0.1.1
 ### [Output Data](OutputData.md)
 - Implemented Average Draft Entering ODMDS

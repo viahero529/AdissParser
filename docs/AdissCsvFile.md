@@ -4,26 +4,32 @@
 The following items represent each line at the start of the ADISS CSV file.
 
 1. Project Name
-2. Contract Number
+    - raw example (without quotes): "Project: 2018 Freeport LNG Maintenance Dredging Project"
+2. Permit Code
+    - raw example (without quotes): "Permit: SWG-2013-00147"
 3. Client Name
+    - raw example (without quotes): "Client: Great Lakes Dredge & Dock Co."
 4. Trip Number
-5. Vessel Name
+    - raw example (without quotes): "Trip: 51"
+5. Scow Vessel Name
     - The scow vessel name.
+    - raw example (without quotes): "Vessel Name: GL61"
 6. Material Source
+    - raw example (without quotes): "Material Source: UNKNOWN"
 7. Transit Start
+    - raw example (without quotes): "Transit Start: 4/25/2018 7:01:55 PM"
 8. Disposal Start
+    - raw example (without quotes): "Disposal Start: 4/25/2018 8:00:55 PM"
 9. Note
+    - raw example (without quotes): "Note: Coordinates are in NAD 1983 StatePlane Texas South Central FIPS 4204 Feet"
 10. Line Separation
     - A single empty line to separate the [file header](#file-header) and [records](#records).
-11. Record Header part 1
-    - The first line populated by the header of the [records](#records):
-    `Local Date/Time,Easting,Northing,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),`
-12. Record Header part 2
-    - The second line populate by the header of the [records](#records):
-    `Water Depth (ft),Placement Phase,Hull Status`
+11. Record Header
+    - The line populated by the header of the [records](#records):
+    `Local Date/Time,Easting,Northing,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),Water Depth (ft),Placement Phase,Hull Status`
 
 ## Records
-The following items represent each field/column of the data starting from line 13 of the ADISS CSV file.
+The following items represent each field/column of the data starting from line 12 of the ADISS CSV file.
 
 1. Local Date Time
     - A date/time value.
