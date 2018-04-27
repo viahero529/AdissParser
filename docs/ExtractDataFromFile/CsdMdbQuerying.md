@@ -1,5 +1,5 @@
-The following are what the program queries in a CSD MDB file:
-1. Date Time
+The program queries the following items in a CSD MDB file:
+1. DateTime
     - Date is on the 2nd column "Date"
     - Time is on the 1st column "Time"
 2. Cutter X
