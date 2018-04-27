@@ -58,18 +58,10 @@
     - The date/time of the first [record](/ExtractDataFromFile/AdissCsvFile.md#records) where `Placement Phase = TRANSIT`.
 27. Return Spider Barge Date/Time
     - The date/time of the last [record](/ExtractDataFromFile/AdissCsvFile.md#records) where `Placement Phase = RETURN`.
-28. Start `LOADING` Dredge Station X
-    - A user input.
-    - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
-29. Start `LOADING` Dredge Station Y
-    - A user input.
-    - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
-30. Start `LOADING` Dredge Range X
-    - A user input.
-    - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
-31. Start `LOADING` Dredge Range Y
-    - A user input.
-    - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
-32. Start `LOADING` Dredge Cutter Depth
-    - A user input.
-    - TODO: [Query .mdb file](https://github.com/gojanpaolo/AdissParser/issues/1)
+28. StartDepartSpiderBargeDredgeCutterX
+    - Dredge record is parsed from CSD MDB File.
+    - StartDepart DateTime parsed from AdissCsvFile is looked up in the CSD MDB File.
+        - Hydro Record DateTime should be greater than or equal the StartDepart DateTime and not later than 10 seconds.
+29. StartDepartSpiderBargeDredgeCutterY
+30. StartDepartSpiderBargeDredgeLadderDepth
+31. StartDepartSpiderBargeDredgeCutterStation
