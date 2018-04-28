@@ -16,7 +16,7 @@
 - [Dredge](Dredge.md)
 - [Hull Status](HullStatus.md)
 - [Placement Phase](PlacementPhase.md)
-- [Scow Series](ScowSeries.md)
+- [Scow Series](Scow/ScowSeries.md)
 
 ---
 
