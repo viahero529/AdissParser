@@ -1,6 +1,6 @@
 ## Features
 ### Extract Data From Files
-- [Prase Adiss CSV File](/ExtractDataFromFile/AdissCsvFile.md)
+- [Parse ADISS CSV File](/ExtractDataFromFile/AdissCsvFile.md)
 - [Query CSD MDB File](/ExtractDataFromFile/CsdMdbQuerying.md)
 - [Parse Dredge NY DRG File](/ExtractDataFromFile/DrgParsing.md)
 
@@ -10,8 +10,7 @@
 ---
 
 ## Concept
-- [ODMDS](Odmds.md)
-- [Channel](Channel.md)
+- [Boundaries](Boundaries.md)
 
 #### [Enumerations](Enumeration.md)
 - [Dredge](Dredge.md)
