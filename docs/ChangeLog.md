@@ -1,5 +1,11 @@
 # Change Log
 
+# 0.1.4
+- Added Dredge New York. See [#17](https://github.com/gojanpaolo/AdissParser/issues/17)
+    - Parse DRG file. [doc](https://gojanpaolo.github.io/AdissParser/ExtractDataFromFile/DrgParsing.html)
+    - Added Reef U and Reef S disposal areas. [doc](https://gojanpaolo.github.io/AdissParser/Boundaries.html)
+- Updated Output Data. See [#21](https://github.com/gojanpaolo/AdissParser/issues/21) 
+
 # 0.1.3
 - Added Query CSD MDB File feature. See [#1](https://github.com/gojanpaolo/AdissParser/issues/1)
 - Updated Output Data CSV column order
