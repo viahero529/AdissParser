@@ -59,10 +59,10 @@
 26. Estimated Load
     - The volume when the scow starts transiting to the disposal area.
     - Looks up the volume using the average of `Aft` and `Fore` `Draft` of the first [record](/ExtractDataFromFile/AdissCsvFile.md#records) where `Placement Phase = TRANSIT`.
-27. Start Transit To Disposal Area Dredge X
-    - The x-coordinate of the dredged location when the scow starts transiting to the disposal area.
+27. Start Transit To Disposal Area Dredge Dig X
+    - The x-coordinate of the dredge dig location when the scow starts transiting to the disposal area.
     - Dredge record is parsed from [CSD MDB](ExtractDataFromFile/CsdMdbQuerying.md) or [Dredge New York DRG](ExtractDataFromFile/DrgParsing.md) file/s.
         - Dredge Record DateTime should be greater than or equal the looked up DateTime and not later than 10 seconds.
-28. Start Transit To Disposal Area Dredge Y
-29. Start Transit To Disposal Area Dredge Depth
-30. Start Transit To Disposal Area Dredge Station
+28. Start Transit To Disposal Area Dredge Dig Y
+29. Start Transit To Disposal Area Dredge Dig Depth
+30. Start Transit To Disposal Area Dredge Dig Station
