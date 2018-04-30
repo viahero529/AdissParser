@@ -48,7 +48,7 @@ The following items represent each field/column of the data starting from line 1
 8. Water Depth
     - A nullable double value of water depth in international feet.
     - If `null`, printed as "N/A" without the quotes.
-9. [Placement Phase](PlacementPhase.md)
+9. [Placement Phase](../PlacementPhase.md)
     - Upper case
-10. [Hull Status](HullStatus.md)
+10. [Hull Status](../HullStatus.md)
     - Upper case
