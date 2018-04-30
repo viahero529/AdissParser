@@ -65,4 +65,4 @@
         - Dredge Record DateTime should be greater than or equal the looked up DateTime and not later than 10 seconds.
 28. Start Transit To Disposal Area Dredge Dig Y
 29. Start Transit To Disposal Area Dredge Dig Depth
-30. Start Transit To Disposal Area Dredge \Dig Station
+30. Start Transit To Disposal Area Dredge Dig Station
