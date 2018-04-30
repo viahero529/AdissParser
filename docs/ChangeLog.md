@@ -1,3 +1,5 @@
+# Change Log
+
 # 0.1.3
 - Added Query CSD MDB File feature. See [#1](https://github.com/gojanpaolo/AdissParser/issues/1)
 - Updated Output Data CSV column order
