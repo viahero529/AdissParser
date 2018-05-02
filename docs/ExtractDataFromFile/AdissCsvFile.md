@@ -44,11 +44,15 @@ The following items represent each field/column of the data starting from line 1
 6. Aft Draft
     - A double value of aft draft in international feet.
 7. Fore Draft
-    - A double avlue of fore draft in international feet.
-8. Water Depth
+    - A double value of fore draft in international feet.
+8. Aft Ullage
+    - A double value of aft ullage in international feet.
+9. Fwd Ullage
+    - A double value of fore ullage in international feet.
+10. Water Depth
     - A nullable double value of water depth in international feet.
     - If `null`, printed as "N/A" without the quotes.
-9. [Placement Phase](../PlacementPhase.md)
+11. [Placement Phase](../PlacementPhase.md)
     - Upper case
-10. [Hull Status](../HullStatus.md)
+12. [Hull Status](../HullStatus.md)
     - Upper case

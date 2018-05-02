@@ -1,5 +1,12 @@
 # Change Log
 
+# 0.1.6
+- Corrected AverageDraftLossDuringTransitToDisposalArea calculation
+- Added Aft and Fore Ullage in ADISS CSV Records.
+
+# 0.1.5
+- Corrected IsMisDump and IsDumpOutsideBerm calculation
+
 # 0.1.4
 - Added Dredge New York. See [#17](https://github.com/gojanpaolo/AdissParser/issues/17)
     - Parse DRG file. [doc](https://gojanpaolo.github.io/AdissParser/ExtractDataFromFile/DrgParsing.html)
