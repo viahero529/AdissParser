@@ -26,7 +26,7 @@ The following items represent each line at the start of the ADISS CSV file.
     - A single empty line to separate the [file header](#file-header) and [records](#records).
 11. Record Header
     - The line populated by the header of the [records](#records):
-    `Local Date/Time,Easting,Northing,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),Water Depth (ft),Placement Phase,Hull Status`
+    `Local Date/Time,Easting,Northing,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),Aft Ullage (ft),ForeUllage (ft),Water Depth (ft),Placement Phase,Hull Status`
 
 ## Records
 The following items represent each field/column of the data starting from line 12 of the ADISS CSV file.
