@@ -5,3 +5,4 @@ Placement phase is an [Enumeration](Enumeration.md) of the following items:
 - Transit
 - Disposal
 - Return
+- Offsite

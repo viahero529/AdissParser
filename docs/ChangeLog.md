@@ -1,5 +1,13 @@
 # Change Log
 
+# 0.1.7
+- Added [Offsite to Placement Phase](PlacementPhase.md)
+- Output Data
+    - Changed Is Dump Outside Berm to [Is Start Dump Inside Of Berm](OutputData.md)
+    - Corrected [Is Mis-Dump](OutputData.md) to only check the start dump record.
+        - Was checking all the `Placement Phase = DISPOSAL or Hull Status = OPEN` records
+    - Added [Is Scow Open Violation](OutputData.md)
+
 # 0.1.6
 - Corrected AverageDraftLossDuringTransitToDisposalArea calculation
 - Added Aft and Fore Ullage in ADISS CSV Records.
