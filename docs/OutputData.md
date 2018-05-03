@@ -23,7 +23,7 @@
     - `true` if the scow started dumping inside of the berm. `null` if no berm is designated based on the selected dredge (i.e. Dredge New York); otherwise `false`.
     - Is start dump inside berm is `true` if the first `Placement Phase = DISPOSAL` [record](/ExtractDataFromFile/AdissCsvFile.md#records) is inside of the Berm boundary.
 10. Is Scow Open Violation
-    - Is scow open violation is `true` if any of the `Hull Status = OPEN` records is outside the disposal area boundary; otherwise `false`
+    - Is scow open violation is `true` if any of the `Hull Status = OPEN or Placement Phase = DISPOSAL` records is outside the disposal area boundary; otherwise `false`
 11. Is Mis-Dump
     - Is mis-dump is `true` if the start dump (first `Placement Phase = DISPOSAL`) [record](/ExtractDataFromFile/AdissCsvFile.md#records) is outside the disposal area boundary; otherwise `false`.
 12. Is Emergency Dump

@@ -1,5 +1,9 @@
 # Change Log
 
+# 0.1.8
+- Corrected Output Data : Is Scow Open Violation to check `Hull Status = OPEN or Placement Phase = DISPOSAL` records
+    - Was checking `Hull Status = OPEN` records only
+
 # 0.1.7
 - Added [Offsite to Placement Phase](PlacementPhase.md)
 - Output Data
