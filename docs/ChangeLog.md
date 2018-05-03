@@ -1,5 +1,9 @@
 # Change Log
 
+# 0.1.9
+- Parse ADISS CSV File even when open in other processes (e.g. MS Excel)
+- Display specific exception message on message box which can help users diagnose an exception.
+
 # 0.1.8
 - Corrected Output Data : Is Scow Open Violation to check `Hull Status = OPEN or Placement Phase = DISPOSAL` records
     - Was checking `Hull Status = OPEN` records only
