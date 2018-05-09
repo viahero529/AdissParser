@@ -5,9 +5,9 @@ The following items represent each line at the start of the ADISS CSV file.
 
 1. Project Name
     - Example: 
-        ``` 
-        Project: 2018 Freeport LNG Maintenance Dredging Project 
-        ```
+    ``` 
+    Project: 2018 Freeport LNG Maintenance Dredging Project 
+    ```
 2. Permit Code
     - Example: 
         ```
