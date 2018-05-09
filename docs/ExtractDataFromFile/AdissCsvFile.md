@@ -5,57 +5,57 @@ The following items represent each line at the start of the ADISS CSV file.
 
 1. Project Name
     - Example: 
-    ``` 
-    Project: 2018 Freeport LNG Maintenance Dredging Project 
-    ```
+``` 
+Project: 2018 Freeport LNG Maintenance Dredging Project 
+```
 2. Permit Code
     - Example: 
-        ```
-        Permit: SWG-2013-00147
-        ```
+```
+Permit: SWG-2013-00147
+```
 3. Client Name
     - Example: 
-        ```
-        Client: Great Lakes Dredge & Dock Co.
-        ```
+```
+Client: Great Lakes Dredge & Dock Co.
+```
 4. Trip Number
     - Example: 
-        ```
-        Trip: 51
-        ```
+```
+Trip: 51
+```
 5. Scow Vessel Name
     - The scow vessel name.
     - Example: 
-        ```
-        Vessel Name: GL61
-        ```
+```
+Vessel Name: GL61
+```
 6. Material Source
     - Example: 
-        ```
-        Material Source: UNKNOWN
-        ```
+```
+Material Source: UNKNOWN
+```
 7. Transit Start
     - Example: 
-        ```
-        Transit Start: 4/25/2018 7:01:55 PM
-        ```
+```
+Transit Start: 4/25/2018 7:01:55 PM
+```
 8. Disposal Start
     - Example: 
-        ```
-        Disposal Start: 4/25/2018 8:00:55 PM
-        ```
+```
+Disposal Start: 4/25/2018 8:00:55 PM
+```
 9. Note
     - Example: 
-        ```
-        Note: Coordinates are in NAD 1983 StatePlane Texas South Central FIPS 4204 Feet
-        ```
+```
+Note: Coordinates are in NAD 1983 StatePlane Texas South Central FIPS 4204 Feet
+```
 10. Line Separation
     - A single empty line to separate the [file header](#file-header) and [records](#records).
 11. Record Header
     - The line populated by the header of the [records](#records):
-        ```
-        Local Date/Time,Easting,Northing,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),Aft Ullage (ft),ForeUllage (ft),Water Depth (ft),Placement Phase,Hull Status
-        ```
+```
+Local Date/Time,Easting,Northing,Heading,Speed (knots),Aft Draft (ft),Fore Draft (ft),Aft Ullage (ft),ForeUllage (ft),Water Depth (ft),Placement Phase,Hull Status
+```
 
 ## Records
 The following items represent each field/column of the data starting from line 12 of the ADISS CSV file.
